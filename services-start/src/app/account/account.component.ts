@@ -8,6 +8,7 @@ import {AccountService} from "../account.service";
   styleUrls: ['./account.component.css'],
   providers: [],
 })
+
 export class AccountComponent {
   @Input() account: {name: string, status: string};
   @Input() id: number;
